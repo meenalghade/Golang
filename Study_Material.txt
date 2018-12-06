@@ -1,0 +1,226 @@
+/*     */
+Golang playground
+
+Terminal
+----------
+CLI+graphical user interface
+Command line userinterface
+terminal : user input output command line 
+
+Bash on Windows
+----------------
+Install github and add the windows bash.
+Bash emulator on Windows.
+
+
+Shell/Bash command
+-------------------
+pwd = present working directly - current directory structure 
+ls = list of all the directory in this current directory
+ls -la = list of directory with permission on it
+	- permissions
+		-owner,group, world
+		-r,w,x
+		-4,2,1
+d= directory
+rwxrwxrwx = owner,group,world
+clear = clear all the command 
+cd = change directory
+cd../  = change directory to go up one level of the directory.
+mkdir - make directory ,also multiple directories in one command
+ex: mkdir tempOne tempTwo tempThree
+
+touch text.txt  = this will create a file with one.txt.
+nano text.txt  = this will create a file and open it for writing also.
+cat one.txt   = this command is used to see the content of the file.
+
+chmod = is used to allow the permission to be provided 
+	chmod option permission filename
+	chmod 777 temp.txt
+env = provides the details of enviornmental variables 
+rm <file name>= remove files 
+rm -rf <folder> = used to removed the directory.
+
+grep 
+	cat temp2.txt | grep <word>  - this show the line the <word> id getting used 
+	ls | grep -i documents
+-----------------------------------------------------------------------------------------------------------------------------------
+Installing Go lang 
+-------------------
+To check the sha256 checksum of the installed Go lang for windows do the following commands
+$cd Downloads/
+$ls
+$openssl sha -sha256 go1.9.3.windows-amd64.msi
+the above command wil show you the exact sha256 for this installer
+-------------------------------------------------------------------
+go command
+-----------
+Go is a tool for managing Go source code.
+
+$go env  - shows the go path and go root 
+go version - shows the go version 
+go help - provides the list of all the command we can use in go
+
+--------------------------------------------------------------------------------
+Go Workspace
+-------------
+one folder - any name , any location 
+	bin 
+	pkg
+	src
+		github.com
+				<github.com username>
+					folder with code for project / repo
+					folder with code for project / repo
+					folder with code for project / repo
+					folder with code for project / repo
+					folder with code for project / repo
+					......
+					folder with code for project / repo
+	
+namespacing
+go get 
+	package management 
+GOPATH
+	points to your go workspace
+GOROOT
+	points to your binary installation of Golang
+-------------------------------------------------------------------------
+Enviornment Variable
+---------------------
+GOPATH - points to the go workspace 
+GOROOT - points to the binary downloaded.
+
+GO Commands
+------------
+go version
+go env
+go help
+go find
+go get 
+		go get -d github.com/GoesToEleven/go-programming
+		go get -d github.com/GoesToEleven/GolangTraining
+		go get -d github.com/GoesToEleven/golang-web-dev
+		
+go fmt - will format all the files as per go.
+		./...
+go run  - will build and run the file 
+		need a filename eg. go run main.go
+		go run <filename>
+		go run *.go
+		
+go build 
+		for an executable:
+			builds the file 
+			reports errors, if any 
+			if there are no errors , it puts an executable into the current folder
+		for a package:
+			BILUDS A FILE 
+			reports errors, if any
+			throws away binary
+
+go install
+	for an executable:
+		compiles the program(builds it)
+		names the executable 
+			mac : the folder name holding the code
+			windows : filename
+		puts the executable in workspace/bin
+				$GOPATH/bin
+	for a package:
+		compiles the package(builds it)
+		puts the exectable in workspace/pkg	
+				$GOPATH/pkg
+		makes it an archive file
+		
+--------------------------------------------------------------------------------------------------------------------------------
+Github repos
+-------------
+Git Commands:
+	git status
+	git add -all
+	git commit -m "some message"
+	git push
+	
+Github Explored:
+	create a repository in my git login : meenal.walokar@gmail.com *vivaan#124
+	Now got that reporsitory on my go lang workspace by command  --> go get -d github.com/meenalghade/Golang
+	
+	
+	Generating the SSH key for windows
+	ssh-keygen -t rsa    add the generated key to the github login through ui
+	
+	now use the following command 
+	
+	git clone <path of ssh from the github>
+	git status
+	git add --all
+	git commit -m "<message to add>"
+	git push
+	
+	
+----------------------------------------------------------------------------------------------------------------
+
+Package 
+		
+			
+
+
+
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+section 3 lecture 16   05 Dec 2018
+---------------------------------------------
+		
+		https://sets.mahagenco.in/mspgclsets/mailContentView.action?1=1&emailId=13928745
+		old version of SeTS had the STQC but the present set does not have 
+
+		During Rahul period he has initiated the process to Sr.GM for STQC 
