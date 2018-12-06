@@ -160,6 +160,15 @@ Github Explored:
 	
 	
 ----------------------------------------------------------------------------------------------------------------
+The Go Playground  http://play.golang.org
+------------------
+Run - Run the go programs on this 
+Format - use the format to format the go program 
+imports - will add import for ur go program 
+share - to share the link of ur go program to others 
+
+
+----------------------------------------------------------------------------------------------------------------
 
 Package 
 		
