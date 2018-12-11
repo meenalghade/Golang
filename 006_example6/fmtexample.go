@@ -18,8 +18,15 @@ func main() {
 	s:=fmt.Sprintf("%#x\t%b\t%x\n",y,y,y)
 	fmt.Println(s)
 	fmt.Printf("%v",y) 
+
+	//type Page struct {
+	//	title string	
+	//	Body []byte
+	//};
+	//fmt.Println("the value of c is %v",Page)
+	//fmt.Println("the value of c is %+v",Page)
 }
-/*Output of the program is 
+/*  Output of the above program
 42
 int
 101010

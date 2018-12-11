@@ -255,9 +255,53 @@ a VARIABLE is DECLARED to hold the VALUE of certain TYPE
 
 Zero VALUE
 -----------
+declare a variable of certain type and then assign the value of that to the variable
+Understanding zerp value 
+	false for boolean
+	0 for uintegers
+	0.0 for floats 
+	"" for strings 
+	nil for 
+		pointers 
+		functions
+		interfaces 
+		slices
+		channels
+		maps
+		
+use short declaration operator.
+use var for 
+	zero value	
+	package scope
+	
+The fmt package
+----------------
+%v - the value in the default format.
+		when printing structs, the plus flag(%+v) adds field value.
+%#v - the go-syntax representation of value.
+%T - th Go-syntax representation of the type of value
+%% - a literal percentage sign;consume no value
+
+Format Printing:
+group1 - general printing to standard output
+	Print(a... interface{})(n int , err error)
+	Printf(format string, a... interface{})(n int, err error)
+	Println(a ...interface{})(n int, err error)
+group2 - priting to a String which u can assign to a variable
+	Sprint(a ...interface{}) string
+	Sprintf(format string, a ...interface{}) string
+	Sprintln(a ...interface{}) string
+group3 - printing to a fuile or a web server response
+	Fprint(w io.Writer, a ...interface{}) (n int, err error)
+	Fprintf(w io.Writer,format string, a ...interface{}) (n int, err error)
+	Fprintln(w io.Writer, a ...interface{})(n int err error)
+	
+Creating your own type
+-----------------------
+We can create our own type in Go Lang programming 
 
 
-			
+Conversion , no casting
 			
 			
 			
