@@ -300,11 +300,78 @@ Creating your own type
 -----------------------
 We can create our own type in Go Lang programming 
 
+Syntax : type <name> datatye
+eg. type cheese int
+
 
 Conversion , no casting
-			
-			
-			
+Eg.  var x int 
+	type cheese int 
+	var y cheese
+	
+	but x=y // this will give the error as this can't be done directly.
+	//hence conversion is required
+	
+	x= int(y) // this a acceptable and give assign the value of y to x 
+	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bool type
+----------
+Boolean data type has two values either true or false .
+this data type can be used in checking the condition where the condition has two values 
+
+i.e. true or false.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How computer works
+-------------------
+computer runs on electricity 
+electricity can be ON or OFF
+coding schemes
+	assign meaning to ON or OFF state 
+	porch light on holloween(2 to the power of n where n is number of porch lights
+		1 porch light = 2 messages 
+		2 porch light = 4 messages
+		3 porch lights = 8 messages 
+		4 porch lights = 16 messages
+		5 porch lights = 32 messages
+		6 porch lights = 64 messages 
+		7 porch lights = 128 messages 
+		8 porch lights = 256 messages
+
+Binary Digits = Bits
+--         --
+Binar digits has values in with 0 and 1 
+and combination of 0's and 1's is bits
+eg. 8 - 1 0 0 0
+Measuring Bits
+1 bit
+8 bits = 1 byte
+1000 bytes = kb
+1000 kb = mb
+1000 mb = gb
+1000 gb = tb
+
+Generation of computers 
+1.Vacuum tubes
+2.Transistors
+3.Integrated circuits (chips)
+4.Microprocessors (cpu's)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Numeric type
+-------------
+Interger has no decimal numbers, those are also called as whole numbers.
+Floating point numbers are having decimals in it.Also known as real numbers.Fraction of things and have decimals.
+
+By default , datatype for interger value is int and for float point value is float64.
+ 			
+In int there are signed and unsigned.The signed int will take +ve als well as +ve values.
+whereas unsigned int will take only +ve values.
+		
 			
 			
 			
