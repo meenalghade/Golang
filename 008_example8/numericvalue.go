@@ -12,7 +12,7 @@ func main(){
 	fmt.Printf("%T\n",y)
 
 	fmt.Printf(runtime.GOLANGOS)
-	fmt.Printf(suntime.GOARCHET)
+	fmt.Printf(runtime.GOARCHITE)   
 }
 
 //76

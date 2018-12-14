@@ -372,8 +372,22 @@ By default , datatype for interger value is int and for float point value is flo
 In int there are signed and unsigned.The signed int will take +ve als well as +ve values.
 whereas unsigned int will take only +ve values.
 		
-			
-			
+String type
+------------
+String type represents the set of string values.
+A string value is a (possible empty) sequence of bytes.
+String are immutable , once created, it is impossible to change the content of a string.
+length of string = its size in bytes
+its illegal to take address of such string.
+s[i] = ith byte of a string
+&s[i] is invalid.
+
+rune is an alias for int32
+
+Numeral System
+---------------
+
+
 			
 			
 			
@@ -414,7 +428,7 @@ whereas unsigned int will take only +ve values.
 		
 
 
-section 3 lecture 22   07 Dec 2018
+section 6 lecture 38   07 Dec 2018
 ---------------------------------------------
 		
 		https://sets.mahagenco.in/mspgclsets/mailContentView.action?1=1&emailId=13928745
