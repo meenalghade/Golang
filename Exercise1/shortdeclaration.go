@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-
 func main() {
 	x := 42
 	fmt.Println(x)
@@ -10,8 +9,9 @@ func main() {
 	fmt.Println(y)
 	z := true
 	fmt.Println(z)
-	fmt.Printf("%v\t %v \t %v\t",x,y,z)
+	fmt.Printf("%v\t %v \t %v\t", x, y, z)
 }
+
 //$ go run shortdeclaration.go
 //42
 //James Bond

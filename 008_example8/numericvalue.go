@@ -11,11 +11,14 @@ func main(){
 	fmt.Printf("%T\n",z)
 	fmt.Printf("%T\n",y)
 
-	fmt.Printf(runtime.GOLANGOS)
-	fmt.Printf(runtime.GOARCHITE)   
+	fmt.Println(runtime.GOARCH)
+	fmt.Println(runtime.GOOS)   
 }
 
 //76
 //34.877
 //int
 //float64
+//amd64
+//windows
+
