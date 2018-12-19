@@ -449,9 +449,91 @@ Bit Shifting  (<<(shift to right ) or >>(shift to left)
 			
 			
 			
+SEction 8 
+----------
+Control flow : is the order in which a individual statement,instructions or function call of imperative programs are executed or evaluated.
+Loop: init , condition , post 
+eg. for init;condition;post 
+in Golang there is no while loop
+Loop - nesting loops 
+
+Nested loop:
+------------
+Bubble Sort :  is the simpest algorithm that works on repeated swipping the adjecent elements if they are in the wrong order.
+
+Selection Sort: algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) 
+from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+
+1) The subarray which is already sorted.
+2) Remaining subarray which is unsorted.
+
+Loop - for statement
+---------------------
+A "for " statement specified repeated execution of a block.
+1.for statements with single condition : 
+									e.g.for a<b {
+											a *=2
+										}
+2.For statement with for clause
+e.g. forcaluse = [InitStmt] : [Codition] : [PostStmt]
+InitStmt = SimpleStmt
+PostStmt = SimpleStmt
+Note: you can use for with nothing but can have if condition in the block 
+3. For statement with range clause
+e.g. 
 			
-			
-			
+
+
+Loop break and continue 
+------------------------
+both of them are keywords in golang 
+write a program to use break and continue by printing even number from 0 top 100 
+
+Loop printing ascii
+--------------------
+format string from 33 to 122 for ascii characters are '%#U'.
+
+Conditional if Statements
+--------------------------
+if statements 
+	a.bool value 
+		true 
+		false 
+	b.the not operators 
+		!
+	c.initialization statement: in this we initialise a value in if and also add condtion
+	e.g. if x := 42 ; x< 2 {
+			//code of bolck
+	}
+	d.if/else
+	e.if /else if / else
+	f.if / else if /else if ........./else
+	
+Loop condition modules
+-----------------------
+cdone an example to find all even number from 0 to 100.
+
+Conditional switch statement:
+-----------------------------
+switch will have true/false , expression , condition in the cases.
+
+Conditional - switch statement documentation:
+---------------------------------------------
+cases can be presented in comma-seperated list
+e.g. : switch c {
+		case '','?','&','=','+','%':
+			return true
+		}
+		return false
+		
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Conditonal logical operators:
+-----------------------------
+&& - and operator 
+|| - or  operator 
+!  - negate operator
+
+	
 			
 			
 			
