@@ -532,7 +532,55 @@ Conditonal logical operators:
 && - and operator 
 || - or  operator 
 !  - negate operator
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Arrays:
+--------
+We have specify the size e.g.: var x [5]int
+Array is zero based index.The number of elements is called length and is never negative.
+
+Slices:composite literal
+-------------------------
+syntax : x := type{values}   ///composite literal
+A slice llow youto group together VALUES of the same TYPES
+
+Slice for range 
+----------------
+syntax: for key, value := range oldMap {
+			newMap[key] = value
+		}
+
+Slicing the slice:[:]
+----------------------
+append(<slice>, <value>....)
+delete - append(<slice in [:]> , <slice in [:]>...)
+make - make(<slice>, length, capacity)
+
+Multidimensional slice:
+------------------------
+x := [][]string{<slice>,<slice>}
+
+Map:are key value store. Its unordered list.
+--------------------------------------------
+map<[key]><value>{...} // this is composite values 
+separate the key with value with a colon ':'
+
+Map - add element and range:
+----------------------------
+to add and entry to the map we have 
+m[<key>] = <value>
+
+for k, v := range <map> {
+	fmt.Println(k,v)
+	}
+	
+Map delete 
+-----------
+delete (<map name>, "key")
+
+
+Struct:
+-------
 	
 			
 			
@@ -563,7 +611,7 @@ Conditonal logical operators:
 		
 
 
-section 6 lecture 38   07 Dec 2018
+section 10 lecture 73  19 Dec 2018
 ---------------------------------------------
 		
 		https://sets.mahagenco.in/mspgclsets/mailContentView.action?1=1&emailId=13928745
