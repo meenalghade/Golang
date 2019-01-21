@@ -583,8 +583,29 @@ Struct:aggregate values of different data type.
 -------
 Embedded Struct:
 ----------------
-	
-			
+anonymous struct: 
+-----------------
+	Section 14 lecture 101	
+	Syntax :
+	--------
+func (recevier) identifier(parameters)(returns){code.....}
+everything in go is PASS BY VALUE
+go allows multiple returns in a function
+
+Variadic parameters (x ...int)
+
+Unfurling slice
+----------------
+if f is the variadic with final value p of type  ...T, then withtin f the type of p is equivalent to type []T. If f is invoked with no actual arguments for p, the value passed to p is null.
+
+e.g. : s:= []string{"James",":Jasmine"}
+Greeting("goodBye:",s...)
+
+Defer: A defer statement invokes a function whose execution is deferrred to the moment the surrounding
+ function returns, either because the surounding function executed a return statement, reached the end 
+ of its functionbody, or beacause the corresponding goroutine is panicking.
+ 
+ Method : SYNTAX : func (r receiver) identifier(parameters) (return(s)) { code }
 			
 			
 			
@@ -613,7 +634,7 @@ Embedded Struct:
 		
 
 
-section 10 lecture 73  19 Dec 2018
+section 14 lecture 101  19 Dec 2018
 ---------------------------------------------
 		
 		https://sets.mahagenco.in/mspgclsets/mailContentView.action?1=1&emailId=13928745
