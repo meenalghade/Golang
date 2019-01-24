@@ -606,7 +606,15 @@ Defer: A defer statement invokes a function whose execution is deferrred to the 
  of its functionbody, or beacause the corresponding goroutine is panicking.
  
  Method : SYNTAX : func (r receiver) identifier(parameters) (return(s)) { code }
-			
+ 
+ Interface and ploymorphism
+ ---------------------------
+ interfaces allows us to do polymorphism.
+ // interface allow us to define behaviour 
+ keywork identifier type
+ type <name> interface {
+	speak()
+ }	
 			
 			
 			
