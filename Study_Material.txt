@@ -615,10 +615,37 @@ Defer: A defer statement invokes a function whose execution is deferrred to the 
  type <name> interface {
 	speak()
  }	
+	A value can be of more than one type.
+ Anonymous Functions
+----------------------
+ func <(argument)> { ....} ()
+
+func expression 
+----------------
+ s identifier := func<parameters> {....code }
+ 
+Returning the function
+--------------------------
+Func returing string 
+func returning  func int 
+func returning int			
 			
-			
-			
-			
+Callback
+---------
+Passing a func as an argument to a function 
+
+Closure:
+---------
+closure - closing the scope of the variable witning limition.
+closing the variable limiting the scope of it within limits 
+a. Scope of variable for the entire package 
+b. Scope of a variable in func main 
+c. Socpe of a variable with the code block only  
+
+Recursion
+----------
+function calling itself 
+
 			
 			
 
