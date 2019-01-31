@@ -144,7 +144,7 @@ Git Commands:
 	
 Github Explored:
 	create a repository in my git login : meenal.walokar@gmail.com *vivaan#124
-	Now got that reporsitory on my go lang workspace by command  --> go get -d github.com/meenalghade/Golang
+	Now got that repository on my go lang workspace by command  --> go get -d github.com/meenalghade/Golang
 	
 	
 	Generating the SSH key for windows
@@ -648,7 +648,24 @@ function calling itself
 
 			
 			
-
+Pointers:
+---------
+All values are stored in memory.Every location in memory has an address.A pointer is the memory address.
+ & - will give the addresss 
+ * - will give you the value stored at an address when you have the address
+ *& - will give u the value staored at the address.
+ 
+When to use pointer
+--------------------
+Pointer allow you to share the value stored at some memory location. User pointer when
+	1.you don't want to pass around a lot of data.
+	2.you want to change the data at a location. 
+	
+	
+	Everything in Go is 'pass by value'.
+	
+method sets
+------------
 		
 		
 		
