@@ -668,6 +668,28 @@ method sets
 ------------
 		
 		
+JSON documentation :
+--------------------
+
+Marshalling 
+Unmarshalling
+
+Sorting 
+--------
+func Ints(a []int) - Ints sorts a slice of ints in increasing order. 
+func Strings(a []string)  - Strings sorts a slice of strings in increasing order. 
+
+Sort custom
+------------
+ByAge and ByName
+
+bcrypt
+------
+encryption and decryprtion method for password use "golang.org/x/crypto/bcrypt" 
+and method to use are 
+GenerateFromPassword
+CompareHashAndPassword
+
 		
 		
 		
