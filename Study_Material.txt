@@ -690,6 +690,20 @@ and method to use are
 GenerateFromPassword
 CompareHashAndPassword
 
+
+Concurrency and parallelism
+------------------------------
+If u write a code and run on machine which has only one CPU then ur code will not run parallel.
+If u have more than one CPU then the code will run in parallel so its called parallelism.
+
+
+Concurrency is a design pattern, 
+
+Mutex - the issue of race can be resolved by using the mutex. In this if a commonly used variable
+is been accessed by all then if the variable is used by the one program then the other program will
+wait till its released from the first process.
+
+
 		
 		
 		
