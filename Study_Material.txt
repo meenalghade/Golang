@@ -703,7 +703,16 @@ Mutex - the issue of race can be resolved by using the mutex. In this if a commo
 is been accessed by all then if the variable is used by the one program then the other program will
 wait till its released from the first process.
 
-
+Errors : Handling errors while coding is important.
+Printlng and logging error 
+- fmt.Println()
+- log.Println()
+- log.Fatalln()
+	- os.Exit()
+- log.Panicln()
+	- deferred functions run 
+	- can use 'recover'
+- panic
 		
 		
 		

@@ -12,6 +12,8 @@ func main() {
 
 	//recieve
 	receive(eve, odd, quit)
+
+	fmt.Println("counter closed")
 }
 
 func send(e, o, q chan<- int) {
@@ -36,6 +38,5 @@ func receive(e, o, q <-chan int) {
 			fmt.Println("from quit channel:", v)
 			return
 		}
-		return
 	}
 }
