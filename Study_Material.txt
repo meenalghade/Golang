@@ -159,6 +159,9 @@ Github Explored:
 	git push
 	
 go fmt ./...   - this command will format all the file in go lang progrmamming language 
+
+To update the git code use the following command
+go get -u <github repository>
 ----------------------------------------------------------------------------------------------------------------
 The Go Playground  http://play.golang.org
 ------------------
@@ -714,6 +717,57 @@ Printlng and logging error
 	- can use 'recover'
 - panic
 		
+Go doc
+-------
+zero argument:
+go doc  --  prints the package documentation for the package in current directory
+
+one argument:
+go doc <pkg>
+go doc <sym>[.<method>]
+go doc [<pkg>.]<sym>[.<method>]
+go doc [<pkg>.][<sym>.]<method>
+
+two arguments:
+go doc <pkg>.<sym>[.<method>]
+		
+godoc: extracts and generates documentation for Go package.
+------
+godoc -http :8282
+godoc -http=:8383
+the above two commands are for getting the documentation accessable through http.
+
+CTRL+C - kills the server.
+
+Remember to BET 
+-----------------
+-Benchmark
+-Example
+-Test
+
+BenchmarkCat(b *testing.B)
+ExampleCat()
+TestCat(t *testing.T)
+
+commands for test , benchmark, cover, coverprofileetc....
+--------------------------------------------------------------	
+go test 
+go test -bench .
+go test -cover
+go test -coverprofile c.out
+go tool cover -html=c.out
+		
+		
+Documentation 
+--------------
+	golang.org
+		- standard library 
+		- src
+	godoc.org	
+		- standard library AND third party packages 
+		
+To see the source packages use the following 
+	e.g: http://golang.org/src/fmt
 		
 		
 		
@@ -721,11 +775,15 @@ Printlng and logging error
 		
 		
 		
-		
-		
-		
-		
-		
+https://echo.labstack.com/
+https://libs.garden/go	
+You will have to use 'go get' command for installing go dependencies. Following is a link to reference document for go command:
+
+https://golang.org/doc/articles/go_command.html
+
+If you're going to VSCode, following is the best VSCode plugin for go:
+
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go
 		
 		
 		
